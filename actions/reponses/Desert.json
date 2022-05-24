@@ -1,0 +1,59 @@
+{
+    "Fail":
+    {
+
+        "1":
+        {
+            "message":"En traversant le désert vous tombez sur un gang de serpent, ils vous encerclent... Un vous pique et vous tombez par terre avec le poison dans votre corp.",
+            "Pv": -30,
+            "ArgentMax":200,
+            "time":20000
+        },
+        "2":
+        {
+            "message":"Cela fait trop longtemps que vous marchez, vous tombez d'épuisement. Un troubardour vous trouve et vous fait prisonner, il vous libèrereras contre quelques pièces d'or.",
+            "Pv": -20,
+            "ArgentMax":-200,
+            "time":30000
+        },
+        "3":
+        {
+            "message":"Vous tombez dans des sables mouvant qui vous ettouffes au fur et à mesure qu'ils vous aspire. Après de longue minute sous le sable vous tombez dans une grotte qui vous amène vers une direction inconnue...",
+            "Pv": -60,
+            "ArgentMax":-100,
+            "time":35000
+        },
+        "4":
+        {
+            "message":"Vous êtes en train de mourir de soif jusqu'au moment où vous voyez une baie. Vous arrivez vers celle-ci in extremis pour vous altérer.",
+            "Pv": -70,
+            "ArgentMax":200,
+            "time":20000
+        }
+       
+    },
+    "Réussite":
+    {
+        "1":
+        {
+            "message":"Tout au long de votre chemin vous trouvez des baies avec des bananiers qui permettent de vous remettre d'aplomb.",
+            "Pv":40,
+            "ArgentMax":200,
+            "time":5000
+        },
+        "2":
+        {
+            "message":"Vous trouvez plusieurs maison abandonnée avec quelques pièces d'or mais pas d'eau... Vous continuez votre chemin jusqu'à trouver un meilleur coin.",
+            "Pv":-10,
+            "ArgentMax":400,
+            "time":10000
+        },
+        "3":
+        {
+            "message":"En marchant vous avancez vers ce qui ressemble à un bain commun, vous vous y prélacez quelque temps puis repartez sur votre route.",
+            "Pv":20,
+            "ArgentMax":-200,
+            "time":12000
+        }
+    }
+}

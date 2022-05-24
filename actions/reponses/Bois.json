@@ -1,0 +1,59 @@
+{
+    "Fail":
+    {
+
+        "1":
+        {
+            "message":"Vous tombez d'une falaise après avoir marché seulement 10m. Vous vous évanouissez à cause de vos blessures.",
+            "Pv": -30,
+            "ArgentMax":100,
+            "time":20000
+        },
+        "2":
+        {
+            "message":"Vous montez dans un arbre pour y voir clair, mais vous vous appuyez sur une branche fragile. Vous tombez comme une merde.",
+            "Pv": -10,
+            "ArgentMax":100,
+            "time":10000
+        },
+        "3":
+        {
+            "message":"Vous tombez dans un trou qui servais surement de piège à animaux. Vous essayez de remonter.",
+            "Pv": -10,
+            "ArgentMax":100,
+            "time":10000
+        },
+        "4":
+        {
+            "message":"Vous mettez votre pied dans un piège à Ours. Vous perdez du temps à vous détacher et à récupérer votre vie perdue.",
+            "Pv": -40,
+            "ArgentMax":100,
+            "time":25000
+        }
+       
+    },
+    "Réussite":
+    {
+        "1":
+        {
+            "message":"Vous traversez la fôret d'une manière aisée. Tous ce passe bien, vous en profitez même pour vous nourrire de baies trouvé sur le chemin.",
+            "Pv":20,
+            "ArgentMax":500,
+            "time":0
+        },
+        "2":
+        {
+            "message":"Vous trouvez un cochon mort sur le côté du chemin. Il était visiblement en bonne santé, alors vous gagnez de la vie et vous profitez pour faire une sieste",
+            "Pv":60,
+            "ArgentMax":500,
+            "time":5000
+        },
+        "3":
+        {
+            "message":"Vous traversez la fôret et trouvez une fontaine sur le chemin pour vous hydrater",
+            "Pv":20,
+            "ArgentMax":500,
+            "time":0
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "report":
+    {
+        "start":":closed_book: | **Journal de ",
+        "point":": Vous gagnez ",
+        "argentWin":"points | Obtenez",
+        "argentLoose":"points | Perdez",
+        "xp":"money | Augmentez de ",
+        "time":"xp | Temps perdu :",
+        "cooldown":":x: | Vous n'avez pas encore reçu de rapport."
+    }
+}

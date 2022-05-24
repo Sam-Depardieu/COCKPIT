@@ -1,0 +1,144 @@
+{
+    "Bois":
+    {
+        "message1":"Vous vous dirigez vers un bois.",
+        "possibilité":
+        {
+            "renard":
+            {
+                "message":"En marchant entre les arbres vous voyez un renard mort au pied d'un arbre, alors vous décidez de :",
+                "1":["🔪","-🔪 Récupérer sa fourrure."],
+                "2":"-🔥 Cuire le peu de viande qu'il possède",
+                "3":"-🚶‍♂️ Passer votre chemin."
+            },
+            "chemin":
+            {
+                "message":"Vous suivez un chemin de terre, ce chemin se sépare en deux directions. Vous prenez le :",
+                "1":"-🚶‍♂️ Chemin direction Nord.",
+                "2":"-🚶‍♀️ Chemin direction Est."
+            },
+            "lac":
+            {
+                "message":"Vous continuez votre chemin jusqu'au moment où vous voyez un lac, vous décidez de :",
+                "1":"-⛱️ Vous reposer un peu.",
+                "2":"-🏊‍♂️ Vous baigner dans l'eau.",
+                "3":"-🚶‍♂️ Passer votre chemin."
+            },
+            "baie":
+            {
+                "message":"Vous passez près de plusieurs buissons et certains contiennent des baies. Vous décidez de :",
+                "1":"-🍓 En ceuillir plusieurs.",
+                "2":"-🛏️ Vous reposer.",
+                "3":"-🚶‍♂️ Passer votre chemin."
+            },
+            "maison":
+            {
+                "message":"En continuant votre chemin vous passez près d'une maison abandonnée. Vous décidez de :",
+                "1":"-🛑 S'y reposer.",
+                "2":"-👀 La visiter",
+                "3":"-🚶‍♂️ Passer votre chemin."
+            }
+        }
+    },
+    "Ville":
+    {
+        "message1":"Vous marchez jusqu'à une ville qui ne vous semble pas hostile.",
+        "posibilité":
+        {
+            "bar":
+            {
+                "message":"En continuant votre périple vous trouvez un bar. En rentrant dedans le bar semble bien plein, vous décidez de :", 
+                "1":"-💰 Faire un pari avec un Homme.",
+                "2":"-☕ Boire un coup.",
+                "3":"-🚶‍♂️ Sortir vista."
+            },
+            "hôtel":
+            {
+                "message":"En marchant dans la ville vous voyez un hôtel. Vous décidez de :",
+                "1":"-🛏️ Vous reposer dans un bon lit.",
+                "2":"-🚶‍♂️ Passer votre chemin."
+            },
+            "parc":
+            {
+                "message":"En marchant dans cette ville vous voyez un parc. Vous décidez de :",
+                "1":"-💪 Travailler vos muscles.",
+                "2":"-🚶‍♂️ Marcher au tour de celui-ci.",
+                "3":"-🚶‍♂️ Partir."
+            },
+            "rue":
+            {
+                "message":"Dans votre périple à l'intérieure de la ville vous approchez de ruelle longue et sinueuse. Vous décidez de :",
+                "1":"-🚶‍♂️ Marche doucement à l'intérieur.",
+                "2":"-⛔ Partir dans une autre ruelle.",
+                "3":"-🏃‍♂️ Sortir de la ville en courant."
+            }
+        }
+    },
+    "Desert":
+    {
+        "message1":"Vous marchez depuis un moment déjà et vous arrivez devant un désert.",
+        "possibilité":
+        {
+            "pyramide":
+            {
+                "message":"Après avoir marché plusieurs mètres vous voyez au loin une pyramide ou un truc dans le genre. Vous décidez de :",
+                "1":"-⌛ Partir voir à l'intérieur de la pyramide.",
+                "2":"-🚶‍♂️ Marcher au tour de la pyramide.",
+                "3":"-🚶‍♂️ Passer son chemin."
+            },
+            "oasis":
+            {
+                "message":"Vous êtes à bout mais au moment où vous allez abandonner vous trouvez une oasis. Vous décidez de :",
+                "1":"-💧 Boire l'eau de l'oasis.",
+                "2":"-🍌 Manger les fruits des arbres.",
+                "3":"-⛱️ Se reposer au bord de l'eau."
+            },
+            "grotte":
+            {
+                "message":"Arrivé au bout de votre périple dans le désert une grotte se présente en face de vous. Vous décidez de :",
+                "1":"-🏜️ Rentrer de la grotte.",
+                "2":"-⛏️ Récupérer les ressources à l'entrée.",
+                "3":"-🚶‍♂️ Ne pas y faire attention."
+            },
+            "huttes":
+            {
+                "message":"Pendant votre périple dans le désert vous croisés des Hommes dans des huttes. Vous décidez de :",
+                "1":"-🏳️ Aller les voir.",
+                "2":"-🚶‍♂️ Marcher doucement près d'eux.",
+                "3":"-🏃‍♂️ Courir dans le sens inverse."
+            }
+        }
+    },
+    "Montagnes":
+    {
+        "message1":"En sortant de :",
+        "message2":"vous voyez une montagne s'imposer devant vous",
+        "possibilité":
+        {
+            "explorateur":
+            {
+                "message":"En vous baladant dans les montagnes vous répérez un homme avec des lamas. Vous décidez de :",
+                "1":"-👛 Aller proposer d'échanger des items.",
+                "2":"-☁️ Juste passer devant lui.",
+                "3":"-🚶‍♂️ Marchez d'un côté opposé."
+            },
+            "pont":
+            {
+                "message":"En essayant de traverser les montagnes vous arrivez devant un pont en bois. Vous décidez de :",
+                "1":"-🌉 Traverser le pont.",
+                "2":"-🚣‍♂️ Traverser le lac sous le pont."
+            },
+            "rivière":
+            {
+                "message":"Vous voyez une rivière devant vous, de l'autre côté du rivage. Vous décidez de :",
+                "1":"-🏊‍♂️ Traverser à la nage.",
+                "2":"-🚣‍♂️ Bricoler un bateau et traverser.",
+                "3":"-🚶‍♂ Partir dans une autre direction."
+            }
+        }
+    },
+    "Ville_abandonnée":
+    {
+
+    }
+}
