@@ -1,13 +1,14 @@
 {
     "Bois":
     {
-        "message1":"Vous vous dirigez vers un bois.",
+        "message1":"En sortant de :",
+        "message2":"Vous vous dirigez vers un bois.",
         "possibilité":
         {
             "renard":
             {
                 "message":"En marchant entre les arbres vous voyez un renard mort au pied d'un arbre, alors vous décidez de :",
-                "1":["🔪","-🔪 Récupérer sa fourrure."],
+                "1":"-🔪 Récupérer sa fourrure.",
                 "2":"-🔥 Cuire le peu de viande qu'il possède",
                 "3":"-🚶‍♂️ Passer votre chemin."
             },
@@ -42,7 +43,8 @@
     },
     "Ville":
     {
-        "message1":"Vous marchez jusqu'à une ville qui ne vous semble pas hostile.",
+        "message1":"En sortant de :",
+        "message2":". Vous marchez jusqu'à une ville qui ne vous semble pas hostile.",
         "posibilité":
         {
             "bar":
@@ -76,7 +78,8 @@
     },
     "Desert":
     {
-        "message1":"Vous marchez depuis un moment déjà et vous arrivez devant un désert.",
+        "message1":"En sortant de :",
+        "message2":", alors que vous marchez déjà depuis un moment. Vous arrivez devant un désert.",
         "possibilité":
         {
             "pyramide":
@@ -112,7 +115,7 @@
     "Montagnes":
     {
         "message1":"En sortant de :",
-        "message2":"vous voyez une montagne s'imposer devant vous",
+        "message2":"vous voyez une montagne s'imposer devant vous.",
         "possibilité":
         {
             "explorateur":
@@ -139,6 +142,37 @@
     },
     "Ville_abandonnée":
     {
-
+        "message1":"En sortant de :",
+        "message2":". Vous arrivez vers une ville qui, elle, vous semble hostille.",
+        "posibilité":
+        {
+            "bar":
+            {
+                "message":"En continuant votre périple vous trouvez un bar avec une entrée dégradée. Vous décidez de :", 
+                "1":"-🚪 Rentrer dans le bar.",
+                "2":"-🚶‍♂️ Partir de cet endroit."
+            },
+            "hôtel":
+            {
+                "message":"En marchant dans la ville vous voyez un hôtel abandonnée. Vous décidez de :",
+                "1":"-🛌 Chercher un lit dans l'hôtel.",
+                "2":"-🏧 Piller l'hôtel.",
+                "3":"-🚶‍♂️ Passer votre chemin."
+            },
+            "parc":
+            {
+                "message":"En marchant dans cette ville vous voyez un parc abandonnée. Vous décidez de :",
+                "1":"-🏀 Faire du sport.",
+                "2":"-🚶‍♂️ Marcher au tour de celui-ci.",
+                "3":"-🚶‍♂️ Partir."
+            },
+            "maison":
+            {
+                "message":"Dans votre périple à l'intérieure de la ville abandonnée vous voyez une multiple maison. Vous décidez de :",
+                "1":"-🏠 Visiter la maison.",
+                "2":"-🛌 Dormir.",
+                "3":"-🚶‍♂️ Partir de cet endroit."
+            }
+        }
     }
 }
